@@ -4,9 +4,7 @@
     Includes the third-party code listed at http://links.sonatype.com/products/clm/attributions.
     "Sonatype" is a trademark of Sonatype, Inc.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.doddi.test</groupId>
   <artifactId>java_vuln_test</artifactId>
@@ -25,3 +23,14 @@
   </dependencies>
 </project>
 
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
+<dependency>
+  <groupId>org.apache.commons</groupId>
+  <artifactId>commons-compress</artifactId>
+  <version>1.20</version>
+</dependency>
+
+
+
+  </dependencies>
+</project>
