@@ -1,0 +1,452 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2022-04-25T16:12:03Z",
+    "component" : {
+      "name" : "scanned-application",
+      "version" : "1.0",
+      "type" : "application",
+      "bom-ref" : "scanned-application"
+    }
+  },
+  "components" : [
+    {
+      "name" : "h2",
+      "version" : "2.2.219-SNAPSHOT",
+      "purl" : "pkg:maven/com.h2database/h2@2.2.219-SNAPSHOT",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.h2database/h2@2.2.219-SNAPSHOT"
+    },
+    {
+      "name" : "lucene-core",
+      "version" : "8.5.2",
+      "purl" : "pkg:maven/org.apache.lucene/lucene-core@8.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-core@8.5.2"
+    },
+    {
+      "name" : "org.osgi.core",
+      "version" : "5.0.0",
+      "purl" : "pkg:maven/org.osgi/org.osgi.core@5.0.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.osgi/org.osgi.core@5.0.0"
+    },
+    {
+      "name" : "org.osgi.enterprise",
+      "version" : "5.0.0",
+      "purl" : "pkg:maven/org.osgi/org.osgi.enterprise@5.0.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.osgi/org.osgi.enterprise@5.0.0"
+    },
+    {
+      "name" : "lucene-analyzers-common",
+      "version" : "8.5.2",
+      "purl" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.2"
+    },
+    {
+      "name" : "slf4j-api",
+      "version" : "1.7.30",
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.30"
+    },
+    {
+      "name" : "jakarta.servlet-api",
+      "version" : "5.0.0",
+      "purl" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0"
+    },
+    {
+      "name" : "jts-core",
+      "version" : "1.17.0",
+      "purl" : "pkg:maven/org.locationtech.jts/jts-core@1.17.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.locationtech.jts/jts-core@1.17.0"
+    },
+    {
+      "name" : "lucene-queryparser",
+      "version" : "8.5.2",
+      "purl" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.2"
+    },
+    {
+      "name" : "lucene-queries",
+      "version" : "8.5.2",
+      "purl" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.2"
+    },
+    {
+      "name" : "lucene-sandbox",
+      "version" : "8.5.2",
+      "purl" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.2"
+    },
+    {
+      "name" : "jackson-databind",
+      "version" : "2.9.10",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10"
+    },
+    {
+      "name" : "jackson-annotations",
+      "version" : "2.9.10",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10"
+    },
+    {
+      "name" : "jackson-core",
+      "version" : "2.9.10",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10"
+    },
+    {
+      "name" : "javax.servlet-api",
+      "version" : "4.0.1",
+      "purl" : "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet/javax.servlet-api@4.0.1"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "scanned-application",
+      "dependsOn" : [
+        "pkg:maven/com.h2database/h2@2.2.219-SNAPSHOT"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-queries@8.5.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-core@8.5.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet/javax.servlet-api@4.0.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.h2database/h2@2.2.219-SNAPSHOT",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.2",
+        "pkg:maven/org.osgi/org.osgi.core@5.0.0",
+        "pkg:maven/org.osgi/org.osgi.enterprise@5.0.0",
+        "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.2",
+        "pkg:maven/org.slf4j/slf4j-api@1.7.30",
+        "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0",
+        "pkg:maven/org.locationtech.jts/jts-core@1.17.0",
+        "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.2",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+        "pkg:maven/javax.servlet/javax.servlet-api@4.0.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-analyzers-common@8.5.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.locationtech.jts/jts-core@1.17.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.servlet/jakarta.servlet-api@5.0.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.10",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.lucene/lucene-queryparser@8.5.2",
+      "dependsOn" : [
+        "pkg:maven/org.apache.lucene/lucene-core@8.5.2",
+        "pkg:maven/org.apache.lucene/lucene-queries@8.5.2",
+        "pkg:maven/org.apache.lucene/lucene-sandbox@8.5.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.10",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.osgi/org.osgi.core@5.0.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.osgi/org.osgi.enterprise@5.0.0",
+      "dependsOn" : [ ]
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "id" : "CVE-2020-36518",
+      "source" : {
+        "name" : "OSS Index",
+        "url" : "https://stage.ossindex.sonatype.org/vulnerability/CVE-2020-36518?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=lift-scanner-cli&utm_medium=integration&utm_content=1.x"
+      },
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "description" : "[CVE-2020-36518] CWE-787: Out-of-bounds Write",
+      "detail" : "jackson-databind before 2.13.0 allows a Java StackOverflow exception and denial of service via a large depth of nested objects.",
+      "ratings" : [
+        {
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      ],
+      "cwes" : [
+        787
+      ],
+      "advisories" : [
+        {
+          "url" : "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-36518"
+        },
+        {
+          "url" : "https://github.com/FasterXML/jackson-databind/issues/2816"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2020-25649",
+      "source" : {
+        "name" : "OSS Index",
+        "url" : "https://stage.ossindex.sonatype.org/vulnerability/CVE-2020-25649?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=lift-scanner-cli&utm_medium=integration&utm_content=1.x"
+      },
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "description" : "[CVE-2020-25649] CWE-611: Improper Restriction of XML External Entity Reference ('XXE')",
+      "detail" : "A flaw was found in FasterXML Jackson Databind, where it did not have entity expansion secured properly. This flaw allows vulnerability to XML external entity (XXE) attacks. The highest threat from this vulnerability is data integrity.",
+      "ratings" : [
+        {
+          "score" : 7.5,
+          "severity" : "high",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+        }
+      ],
+      "cwes" : [
+        611
+      ],
+      "advisories" : [
+        {
+          "url" : "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-25649"
+        },
+        {
+          "url" : "https://github.com/FasterXML/jackson-databind/issues/2589"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2019-17531",
+      "source" : {
+        "name" : "OSS Index",
+        "url" : "https://stage.ossindex.sonatype.org/vulnerability/CVE-2019-17531?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=lift-scanner-cli&utm_medium=integration&utm_content=1.x"
+      },
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "description" : "[CVE-2019-17531] CWE-502: Deserialization of Untrusted Data",
+      "detail" : "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the apache-log4j-extra (version 1.2.x) jar in the classpath, and an attacker can provide a JNDI service to access, it is possible to make the service execute a malicious payload.",
+      "ratings" : [
+        {
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "advisories" : [
+        {
+          "url" : "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-17531"
+        },
+        {
+          "url" : "https://github.com/FasterXML/jackson-databind/issues/2498"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2019-16942",
+      "source" : {
+        "name" : "OSS Index",
+        "url" : "https://stage.ossindex.sonatype.org/vulnerability/CVE-2019-16942?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=lift-scanner-cli&utm_medium=integration&utm_content=1.x"
+      },
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "description" : "[CVE-2019-16942] CWE-502: Deserialization of Untrusted Data",
+      "detail" : "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the commons-dbcp (1.4) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of org.apache.commons.dbcp.datasources.SharedPoolDataSource and org.apache.commons.dbcp.datasources.PerUserPoolDataSource mishandling.",
+      "ratings" : [
+        {
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "advisories" : [
+        {
+          "url" : "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-16942"
+        },
+        {
+          "url" : "https://github.com/FasterXML/jackson-databind/issues/2478"
+        }
+      ]
+    },
+    {
+      "id" : "CVE-2019-16943",
+      "source" : {
+        "name" : "OSS Index",
+        "url" : "https://stage.ossindex.sonatype.org/vulnerability/CVE-2019-16943?component-type=maven&component-name=com.fasterxml.jackson.core%2Fjackson-databind&utm_source=lift-scanner-cli&utm_medium=integration&utm_content=1.x"
+      },
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10",
+      "description" : "[CVE-2019-16943] CWE-502: Deserialization of Untrusted Data",
+      "detail" : "A Polymorphic Typing issue was discovered in FasterXML jackson-databind 2.0.0 through 2.9.10. When Default Typing is enabled (either globally or for a specific property) for an externally exposed JSON endpoint and the service has the p6spy (3.8.6) jar in the classpath, and an attacker can find an RMI service endpoint to access, it is possible to make the service execute a malicious payload. This issue exists because of com.p6spy.engine.spy.P6DataSource mishandling.",
+      "ratings" : [
+        {
+          "score" : 9.8,
+          "severity" : "critical",
+          "method" : "CVSSv3",
+          "vector" : "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      ],
+      "cwes" : [
+        502
+      ],
+      "advisories" : [
+        {
+          "url" : "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2019-16943"
+        },
+        {
+          "url" : "https://github.com/FasterXML/jackson-databind/issues/2478"
+        },
+        {
+          "url" : "https://blog.sonatype.com/jackson-databind-remote-code-execution"
+        },
+        {
+          "url" : "https://blog.sonatype.com/jackson-databind-the-end-of-the-blacklist"
+        }
+      ]
+    }
+  ]
+}
