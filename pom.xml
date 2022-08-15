@@ -31,37 +31,37 @@
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/ch.qos.logback/logback-classic -->
-    <dependency>
+    <!-- <dependency>
   <groupId>ch.qos.logback</groupId>
   <artifactId>logback-classic</artifactId>
   <version>1.1.11</version>
   <scope>test</scope>
-</dependency>
+</dependency> -->
 
     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
-    <dependency>
+    <!-- <dependency>
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-compress</artifactId>
   <version>1.20</version>
-</dependency>
+</dependency> -->
 
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-<dependency>
+<!-- <dependency>
   <groupId>mysql</groupId>
   <artifactId>mysql-connector-java</artifactId>
   <version>6.0.4</version>
-</dependency>
+</dependency> -->
 
 
 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
-<dependency>
+<!-- <dependency>
   <groupId>org.apache.spark</groupId>
   <artifactId>spark-core_2.12</artifactId>
   <version>3.1.2</version>
-</dependency>
+</dependency> -->
 
 <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
-<dependency>
+<!-- <dependency>
   <groupId>org.apache.hadoop</groupId>
   <artifactId>hadoop-common</artifactId>
   <version>3.2.2</version>
@@ -78,7 +78,7 @@
   <artifactId>h2</artifactId>
   <version>1.4.199</version>
   <scope>test</scope>
-</dependency>
+</dependency> -->
 
 
 
