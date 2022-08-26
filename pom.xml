@@ -54,14 +54,14 @@
 
 
 <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
-<dependency>
+<!-- <dependency>
   <groupId>org.apache.spark</groupId>
   <artifactId>spark-core_2.12</artifactId>
   <version>3.1.2</version>
-</dependency>
+</dependency> -->
 
 <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
-<dependency>
+<!-- <dependency>
   <groupId>org.apache.struts</groupId>
   <artifactId>struts-core</artifactId>
   <version>1.3.9</version>
@@ -72,7 +72,7 @@
   <artifactId>h2</artifactId>
   <version>1.4.199</version>
   <scope>test</scope>
-</dependency>
+</dependency> -->
 
 
 
