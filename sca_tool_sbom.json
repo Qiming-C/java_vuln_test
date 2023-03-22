@@ -1,0 +1,353 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2022-11-09T01:27:56Z",
+    "tools" : [
+      {
+        "name" : "Sonatype Lift",
+        "version" : "1.0.54-SNAPSHOT"
+      }
+    ],
+    "component" : {
+      "group" : "unknown-group",
+      "name" : "unknown-application",
+      "version" : "fgk",
+      "type" : "application",
+      "bom-ref" : "pkg:application/unknown-group/unknown-application@fgk"
+    }
+  },
+  "components" : [
+    {
+      "name" : "java_vuln_test",
+      "version" : "1.0.8-SNAPSHOT",
+      "purl" : "pkg:maven/com.doddi.test/java_vuln_test@1.0.8-SNAPSHOT",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.doddi.test/java_vuln_test@1.0.8-SNAPSHOT"
+    },
+    {
+      "name" : "log4j",
+      "version" : "1.2.17",
+      "purl" : "pkg:maven/log4j/log4j@1.2.17",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/log4j/log4j@1.2.17"
+    },
+    {
+      "name" : "mysql-connector-java",
+      "version" : "6.0.4",
+      "purl" : "pkg:maven/mysql/mysql-connector-java@6.0.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/mysql/mysql-connector-java@6.0.4"
+    },
+    {
+      "name" : "commons-compress",
+      "version" : "1.20",
+      "purl" : "pkg:maven/org.apache.commons/commons-compress@1.20",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-compress@1.20"
+    },
+    {
+      "name" : "struts-core",
+      "version" : "1.3.9",
+      "purl" : "pkg:maven/org.apache.struts/struts-core@1.3.9",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.struts/struts-core@1.3.9"
+    },
+    {
+      "name" : "antlr",
+      "version" : "2.7.2",
+      "purl" : "pkg:maven/antlr/antlr@2.7.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/antlr/antlr@2.7.2"
+    },
+    {
+      "name" : "commons-beanutils",
+      "version" : "1.7.0",
+      "purl" : "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.7.0"
+    },
+    {
+      "name" : "commons-logging",
+      "version" : "1.0.4",
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.0.4",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.0.4"
+    },
+    {
+      "name" : "commons-chain",
+      "version" : "1.1",
+      "purl" : "pkg:maven/commons-chain/commons-chain@1.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-chain/commons-chain@1.1"
+    },
+    {
+      "name" : "commons-digester",
+      "version" : "1.8",
+      "purl" : "pkg:maven/commons-digester/commons-digester@1.8",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-digester/commons-digester@1.8"
+    },
+    {
+      "name" : "commons-validator",
+      "version" : "1.3.1",
+      "purl" : "pkg:maven/commons-validator/commons-validator@1.3.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-validator/commons-validator@1.3.1"
+    },
+    {
+      "name" : "oro",
+      "version" : "2.0.8",
+      "purl" : "pkg:maven/oro/oro@2.0.8",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/oro/oro@2.0.8"
+    },
+    {
+      "name" : "jackson-databind",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1"
+    },
+    {
+      "name" : "jackson-annotations",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1"
+    },
+    {
+      "name" : "jackson-core",
+      "version" : "2.10.1",
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1"
+    },
+    {
+      "name" : "postgresql",
+      "version" : "42.3.2",
+      "purl" : "pkg:maven/org.postgresql/postgresql@42.3.2",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.postgresql/postgresql@42.3.2"
+    },
+    {
+      "name" : "checker-qual",
+      "version" : "3.5.0",
+      "purl" : "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+      "properties" : [
+        {
+          "name" : "sonatype:ossi:score",
+          "value" : "0.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:application/unknown-group/unknown-application@fgk",
+      "dependsOn" : [
+        "pkg:maven/com.doddi.test/java_vuln_test@1.0.8-SNAPSHOT"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-validator/commons-validator@1.3.1",
+      "dependsOn" : [
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+        "pkg:maven/commons-digester/commons-digester@1.8",
+        "pkg:maven/commons-logging/commons-logging@1.0.4"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.doddi.test/java_vuln_test@1.0.8-SNAPSHOT",
+      "dependsOn" : [
+        "pkg:maven/log4j/log4j@1.2.17",
+        "pkg:maven/mysql/mysql-connector-java@6.0.4",
+        "pkg:maven/org.apache.commons/commons-compress@1.20",
+        "pkg:maven/org.apache.struts/struts-core@1.3.9",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+        "pkg:maven/org.postgresql/postgresql@42.3.2"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.0.4"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/log4j/log4j@1.2.17",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/mysql/mysql-connector-java@6.0.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-digester/commons-digester@1.8",
+      "dependsOn" : [
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+        "pkg:maven/commons-logging/commons-logging@1.0.4"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-compress@1.20",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.postgresql/postgresql@42.3.2",
+      "dependsOn" : [
+        "pkg:maven/org.checkerframework/checker-qual@3.5.0"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/oro/oro@2.0.8",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.struts/struts-core@1.3.9",
+      "dependsOn" : [
+        "pkg:maven/antlr/antlr@2.7.2",
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+        "pkg:maven/commons-chain/commons-chain@1.1",
+        "pkg:maven/commons-digester/commons-digester@1.8",
+        "pkg:maven/commons-logging/commons-logging@1.0.4",
+        "pkg:maven/commons-validator/commons-validator@1.3.1",
+        "pkg:maven/oro/oro@2.0.8"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/antlr/antlr@2.7.2",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.10.1",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.10.1",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.10.1"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-logging/commons-logging@1.0.4",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-chain/commons-chain@1.1",
+      "dependsOn" : [
+        "pkg:maven/commons-beanutils/commons-beanutils@1.7.0",
+        "pkg:maven/commons-digester/commons-digester@1.8",
+        "pkg:maven/commons-logging/commons-logging@1.0.4"
+      ]
+    }
+  ]
+}
